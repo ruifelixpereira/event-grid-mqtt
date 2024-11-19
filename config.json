@@ -1,0 +1,32 @@
+{
+    "deliveryConfiguration": {
+        "deliveryMode": "Push",
+        "push": {
+            "maxDeliveryCount": 10,
+            "deliveryWithResourceIdentity": {
+                "identity": {
+                    "type": "SystemAssigned"
+                },
+                "destination": {
+                    "endpointType": "EventHub",
+                    "properties": {
+                        "resourceId": "$EH_RESOURCE_ID"
+                    }
+                }
+            }
+        }
+    },
+    "filtersConfiguration": {
+        "includedEventTypes": [],
+        "filters": [
+            {
+                "values": [
+                    "xpto"
+                ],
+                "operatorType": "StringBeginsWith",
+                "key": "teste"
+            }
+        ]
+    }
+}
+

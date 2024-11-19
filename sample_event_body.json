@@ -1,0 +1,10 @@
+{
+    "specversion": "1.0",
+    "source": "mqtt-lab-ns",
+    "time": "2024-11-18T18:12:19.447Z",
+    "id": "9c1bf1b7-facc-4938-9776-e619d38aa99d",
+    "subject": "contosotopics/topic1",
+    "datacontenttype": "application/octet-stream",
+    "type": "MQTT.EventPublished",
+    "data_base64": "eyJBc3NldElkIjoieHB0by0wMSIsIlRlbXBlcmF0dXJlIjo1NS4zfQ=="
+}
